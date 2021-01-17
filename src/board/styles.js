@@ -53,6 +53,10 @@ export const ResetButton = styled.button`
     background-color: #95001c;
   }
 
+  &:focus {
+    outline: none;
+  }
+
   &:active {
     background-color: #95001c;
     box-shadow: 0 5px #666;

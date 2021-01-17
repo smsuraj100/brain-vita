@@ -50,11 +50,29 @@ export const UsernameInput = styled.input`
 export const SubmitButton = styled.button`
   width: 30%;
   height: 46px;
-  background-color: #0ba90b;
+  background-color: #649f64;
   color: white;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   border: 0;
   border-radius: 8px;
+
+  &:hover {
+    background-color: #568556;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: #a6a6a6;
+  }
+
+  &:active {
+    background-color: #568556;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
 `;
